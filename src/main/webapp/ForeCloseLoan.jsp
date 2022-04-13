@@ -20,7 +20,7 @@
 			   </div>
 			   <form action="forecloseLoan" method="post">
 					<div class="form-group">
-			            <label>Loan Account : </label><input class="form-control" type="number" name="acc_id">
+			            <label>Loan Account : </label><input class="form-control" type="number" name="acc_id" required>
 			        </div>
 			        <button type="submit" class="btn btn-primary">Submit</button>
 				</form>

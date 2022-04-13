@@ -20,10 +20,10 @@
 			   </div>
 			   <form action="validate" method="post">
 					<div class="form-group">
-			            <input type="number" name="logId" class="form-control" id="inputEmail" placeholder="Login ID">
+			            <input type="number" name="logId" class="form-control" id="inputEmail" placeholder="Login ID" required>
 			        </div>
 			        <div class="form-group">
-			            <input type="password" name="password" class="form-control" id="inputPassword" placeholder="Password">
+			            <input type="password" name="password" class="form-control" id="inputPassword" placeholder="Password" required>
 			        </div>
 			        <button type="submit" class="btn btn-primary">Login</button>
 				</form>

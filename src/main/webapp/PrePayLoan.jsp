@@ -20,10 +20,10 @@
 			   </div>
 			   <form action="prepayLoan" method="post">
 					<div class="form-group">
-			            <label>Loan Account : </label><input class="form-control" type="number" name="acc_id">
+			            <label>Loan Account : </label><input class="form-control" type="number" name="acc_id" required>
 			        </div>
 			        <div class="form-group">
-			            <label>Amount : </label><input class="form-control" type="number" name="amount">
+			            <label>Amount : </label><input class="form-control" type="number" name="amount" required>
 			        </div>
 			        <button type="submit" class="btn btn-primary">Pay</button>
 				</form>
@@ -31,4 +31,3 @@
 		</div>
 	</div>
 </body>
-</form>
